@@ -1,0 +1,18 @@
+.item-list {
+  width: 40rem;
+  max-width: 90%;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  background-color: rgb(210, 228, 228);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.remarks {
+  margin-top: 0.5rem;
+}
